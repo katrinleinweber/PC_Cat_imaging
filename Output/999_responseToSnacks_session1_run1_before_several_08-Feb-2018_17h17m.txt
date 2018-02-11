@@ -1,0 +1,2 @@
+subjectID	order	run	before_or_after	session(visit)	itemName	bidInd	isOne?	onsettime	fixationTime
+999	 1	 1	 before	 1	 BisliOnion.bmp	 22	 0	 4.350691	 6.337055	

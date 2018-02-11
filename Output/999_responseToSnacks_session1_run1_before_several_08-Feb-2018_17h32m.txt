@@ -1,0 +1,2 @@
+subjectID	order	run	before_or_after	session(visit)	itemName	bidInd	isOne?	onsettime	fixationTime
+999	 1	 1	 before	 1	 GumiWine2.bmp	 12	 0	 4.347096	 6.328316	

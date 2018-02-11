@@ -1,0 +1,5 @@
+subjectID	scanner	order	runtrial	onsettime	ImageLeft	ImageRight	TypeLeft	TypeRight	IsleftGo	Response	PairType	Outcome	RT
+cat_between_MRI_999	 0	 1	 1	 0	 Cheezits.bmp	 Lindt_small.bmp	 1	 5	 1	 x	 1	 999	 999000.00	 
+cat_between_MRI_999	 0	 1	 2	 5	 Granolabar.bmp	 Lollipopred.bmp	 2	 6	 0	 u	 1	 0	 389.18	 
+cat_between_MRI_999	 0	 1	 3	 8	 Hersheykisses.bmp	 Milano.bmp	 3	 7	 0	 i	 1	 1	 305.88	 
+cat_between_MRI_999	 0	 1	 4	 11	 Laffytaffyred_one.bmp	 RitzBitz2.bmp	 4	 8	 1	 x	 1	 999	 999000.00	 

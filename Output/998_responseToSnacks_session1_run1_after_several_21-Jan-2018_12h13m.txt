@@ -1,0 +1,7 @@
+subjectID	order	run	before_or_after	session(visit)	itemName	bidInd	isOne?	onsettime	fixationTime
+998	 2	 1	 after	 1	 Mentos.bmp	 54	 0	 2.334558	 4.335245	
+998	 2	 1	 after	 1	 Smarties.bmp	 50	 1	 9.322263	 11.325145	
+998	 2	 1	 after	 1	 KinderBuenoBrown3.bmp	 44	 1	 16.333696	 18.332484	
+998	 2	 1	 after	 1	 KashitSour.bmp	 51	 0	 23.321557	 25.323420	
+998	 2	 1	 after	 1	 Hit.bmp	 41	 1	 30.328979	 32.331454	
+998	 2	 1	 after	 1	 Cheetos.bmp	 42	 0	 37.334857	 39.322650	

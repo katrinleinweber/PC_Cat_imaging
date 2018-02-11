@@ -1,0 +1,4 @@
+subjectID	order	run	before_or_after	session(visit)	itemName	bidInd	oneOrSeveral?	onsettime	fixationTime
+998	 2	 1	 before	 1	 BambaSweet.bmp	 20	 1	 2.159384	 4.162262	
+998	 2	 1	 before	 1	 PesekZman.bmp	 49	 1	 9.150369	 11.152894	
+998	 2	 1	 before	 1	 Tortit.bmp	 4	 1	 16.158433	 18.160725	

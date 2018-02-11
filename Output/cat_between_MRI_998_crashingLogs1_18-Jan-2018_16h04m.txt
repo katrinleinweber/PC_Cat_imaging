@@ -1,0 +1,5 @@
+BDM demo crashed:	 0
+BDM crashed:	 0
+training demo crashed:	 0
+training demo crashed:	 0
+probe demo crashed:	 0

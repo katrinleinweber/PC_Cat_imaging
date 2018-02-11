@@ -1,0 +1,9 @@
+subjectID	runtrial	onsettime	Name	Bid	RT
+cat_between_MRI_999	1	1.814293e-01	Lollipopred.bmp	4.588542e+00	1.085003e+00
+cat_between_MRI_999	2	1.666464e+00	RitzBitz2.bmp	7.001424e+00	8.675847e-01
+cat_between_MRI_999	3	2.967882e+00	Granolabar.bmp	5.088664e+00	1.050955e+00
+cat_between_MRI_999	4	4.452648e+00	Lindt_small.bmp	7.889445e+00	2.219112e+00
+cat_between_MRI_999	5	7.105537e+00	Laffytaffyred_one.bmp	5.566610e+00	1.351938e+00
+cat_between_MRI_999	6	8.857905e+00	Milano.bmp	4.584025e+00	1.017815e+00
+cat_between_MRI_999	7	1.030936e+01	Hersheykisses.bmp	6.293091e+00	1.201143e+00
+cat_between_MRI_999	8	1.191104e+01	Cheezits.bmp	3.001261e+00	1.585027e+00

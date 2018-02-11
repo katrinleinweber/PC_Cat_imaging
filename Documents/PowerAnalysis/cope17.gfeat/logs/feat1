@@ -1,0 +1,87 @@
+
+/bin/cp /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/designs/group/responsetosnacks/after_before/design_after_before_cope17_model001.fsf design.fsf
+
+/share/apps/fsl/bin/feat_model design
+
+mkdir .files;cp /share/apps/fsl/doc/fsl.css .files;cp -r /share/apps/fsl/doc/images .files/images
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat -gfeatprep
+439968
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 439968  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat -I 1 -flame1
+440000
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 440000 -t ./.flame
+440004
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 440004  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat -flame3
+440012
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 440012  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat -poststats 1
+440036
+
+/share/apps/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 440036  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope1.feat -stop
+440063
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 439968  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat -I 2 -flame1
+440161
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 440161 -t ./.flame
+440167
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 440167  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat -flame3
+440173
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 440173  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat -poststats 1
+440198
+
+/share/apps/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 440198  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope2.feat -stop
+440228
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 439968  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat -I 3 -flame1
+440321
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 440321 -t ./.flame
+440325
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 440325  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat -flame3
+440339
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 440339  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat -poststats 1
+440366
+
+/share/apps/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 440366  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope3.feat -stop
+440396
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 439968  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat -I 4 -flame1
+440481
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 440481 -t ./.flame
+440487
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 440487  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat -flame3
+440504
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 440504  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat -poststats 1
+440530
+
+/share/apps/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 440530  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope4.feat -stop
+440556
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 439968  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat -I 5 -flame1
+440642
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 440642 -t ./.flame
+440652
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 440652  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat -flame3
+440665
+
+/share/apps/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 440665  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat -poststats 1
+440692
+
+/share/apps/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 440692  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat -stop
+440719
+
+/share/apps/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 440063,440228,440396,440556,440719  /share/apps/fsl/bin/feat /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat/cope5.feat/design.fsf -D /export/home/DATA/schonberglab/MRI_snacks/analysis/bids/derivatives/model/model001/group/responsetosnacks/after_before/cope17.gfeat -stop
+440748

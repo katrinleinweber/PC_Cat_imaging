@@ -1,0 +1,18 @@
+/ContrastName1	study_group_mean 
+/ContrastName2	control_group_mean 
+/ContrastName3	study_group_inverse 
+/ContrastName4	control_group_inverse 
+/ContrastName5	study_minus_control 
+/ContrastName6	control_minus_study 
+/NumWaves	2
+/NumContrasts	6
+/PPheights		1.000000e+00	1.000000e+00	1.000000e+00	1.000000e+00	1.000000e+00	1.000000e+00
+/RequiredEffect		0.647	0.630	0.647	0.630	0.903	0.903
+
+/Matrix
+1.000000e+00 0.000000e+00 
+0.000000e+00 1.000000e+00 
+-1.000000e+00 0.000000e+00 
+0.000000e+00 -1.000000e+00 
+1.000000e+00 -1.000000e+00 
+-1.000000e+00 1.000000e+00 

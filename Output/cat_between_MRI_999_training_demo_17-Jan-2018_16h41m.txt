@@ -1,0 +1,9 @@
+subjectID	runNum	itemname	onsettime	trialtype	RT	respInTime	Cuetime	response	fixationtime	ladder1	ladder2
+cat_between_MRI_999	 1	 Cheezits.bmp	 1.057923e+00	 24	 999000	 240	 999000	 999	 2.08	 750	 750	 
+cat_between_MRI_999	 1	 Granolabar.bmp	 4.011519e+00	 24	 999000	 240	 999000	 999	 5.03	 750	 750	 
+cat_between_MRI_999	 1	 Hersheykisses.bmp	 1.001820e+01	 12	 999000	 120	 999000	 999	 11.04	 750	 750	 
+cat_between_MRI_999	 1	 Laffytaffyred_one.bmp	 1.402264e+01	 22	 1.031845e+03	 2200	 7.506035e+02	 98	 15.04	 750	 700	 
+cat_between_MRI_999	 1	 Lindt_small.bmp	 1.801054e+01	 12	 999000	 120	 999000	 999	 19.03	 750	 700	 
+cat_between_MRI_999	 1	 Lollipopred.bmp	 2.101391e+01	 24	 999000	 240	 999000	 999	 22.03	 750	 700	 
+cat_between_MRI_999	 1	 Milano.bmp	 2.401727e+01	 24	 999000	 240	 999000	 999	 25.04	 750	 700	 
+cat_between_MRI_999	 1	 RitzBitz2.bmp	 2.601962e+01	 11	 1.058870e+03	 1100	 7.506150e+02	 98	 27.04	 700	 700	 
