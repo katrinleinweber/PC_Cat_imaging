@@ -17,7 +17,7 @@ elseif ~size(mesh.poly,2)==4
 end
 
 % there are 4 vertices per polygon, which do not have to ly in a single plane
-% hence there are two possilbe triangulations to split the polygon [1 2 3 4]
+% hence there are two possible triangulations to split the polygon [1 2 3 4]
 % option 1 is [1 2 3] and [1 3 4] -> this is used in the following code
 % option 2 is [4 1 2] and [4 2 3]
 
